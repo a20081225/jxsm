@@ -6,8 +6,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import cn.itcast.jk.dao.FactoryDao;
-import cn.itcast.jk.domain.Factory;
+import com.yw.jxsm.dao.FactoryDao;
+import com.yw.jxsm.domain.Factory;
 
 /**
  * @Description: 使用spring整合jUnit测试

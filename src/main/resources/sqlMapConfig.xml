@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--&lt;!&ndash; 方言，所使用的数据库 &ndash;&gt;-->
+    <!--<properties>-->
+        <!--<property name="dialect" value="mysql"/>-->
+    <!--</properties>-->
+
+    <!--&lt;!&ndash; 分页拦截器，拦截用户提交的查询，只查询当前页数据；提高响应速度。 &ndash;&gt;-->
+    <!--<plugins>-->
+        <!--<plugin interceptor="cn.itcast.jk.pagination.PageInterceptor">-->
+            <!--<property name="databaseType" value="mysql"/>-->
+        <!--</plugin>-->
+    <!--</plugins>-->
+</configuration>

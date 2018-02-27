@@ -93,14 +93,14 @@ public class Test2XSSF {
 		curFont.setFontHeightInPoints((short)10);						//字体大小
 		curStyle.setFont(curFont);
 		
-		curStyle.setBorderTop(CellStyle.BORDER_THICK);				//粗实线
-		curStyle.setBorderBottom(CellStyle.BORDER_THIN);			//实线
-		curStyle.setBorderLeft(CellStyle.BORDER_MEDIUM);			//比较粗实线
-		curStyle.setBorderRight(CellStyle.BORDER_THIN);				//实线
-		
-		curStyle.setWrapText(true);  									//换行   
-		curStyle.setAlignment(CellStyle.ALIGN_RIGHT);				//横向具右对齐
-		curStyle.setVerticalAlignment(CellStyle.VERTICAL_CENTER);	//单元格垂直居中
+//		curStyle.setBorderTop(CellStyle.BORDER_THICK);				//粗实线
+//		curStyle.setBorderBottom(CellStyle.BORDER_THIN);			//实线
+//		curStyle.setBorderLeft(CellStyle.BORDER_MEDIUM);			//比较粗实线
+//		curStyle.setBorderRight(CellStyle.BORDER_THIN);				//实线
+//
+//		curStyle.setWrapText(true);  									//换行
+//		curStyle.setAlignment(CellStyle.ALIGN_RIGHT);				//横向具右对齐
+//		curStyle.setVerticalAlignment(CellStyle.VERTICAL_CENTER);	//单元格垂直居中
 		
 		return curStyle;
 	}

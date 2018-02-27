@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yw.jxsm.mapper.FactoryMapper">
+    <resultMap id="factoryRM" type="com.yw.jxsm.domain.Factory">
+        <id property="id" column="FACTORY_ID"/>
+        <result property="fullName" column="FULL_NAME"/>
+        <result property="factoryName" column="FACTORY_NAME"/>
+        <result property="contacts" column="CONTACTS"/>
+        <result property="phone" column="PHONE"/>
+        <result property="mobile" column="MOBILE"/>
+        <result property="fax" column="FAX"/>
+        <result property="cnote" column="CNOTE"/>
+        <result property="inspector" column="INSPECTOR"/>
+        <result property="orderNo" column="ORDER_NO"/>
+        <result property="creatBy" column="CREATE_BY"/>
+        <result property="creatDept" column="CREATE_DEPT"/>
+        <result property="creatTime" column="CREATE_TIME"/>
+    </resultMap>
+    <select id="find" parameterType="map" resultMap="factoryRM">
+        SELECT * FROM FACTORY_C WHERE 1=1
+    </select>
+</mapper>

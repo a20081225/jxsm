@@ -134,14 +134,14 @@ public class Test3SXSSF {
 		curFont.setFontHeightInPoints((short)10);						//字体大小
 		curStyle.setFont(curFont);
 		
-		curStyle.setBorderTop(XSSFCellStyle.BORDER_THICK);				//粗实线
-		curStyle.setBorderBottom(XSSFCellStyle.BORDER_THIN);			//实线
-		curStyle.setBorderLeft(XSSFCellStyle.BORDER_MEDIUM);			//比较粗实线
-		curStyle.setBorderRight(XSSFCellStyle.BORDER_THIN);				//实线
-		
-		curStyle.setWrapText(true);  									//换行   
-		curStyle.setAlignment(XSSFCellStyle.ALIGN_RIGHT);				//横向具右对齐
-		curStyle.setVerticalAlignment(XSSFCellStyle.VERTICAL_CENTER);	//单元格垂直居中
+//		curStyle.setBorderTop(XSSFCellStyle.BORDER_THICK);				//粗实线
+//		curStyle.setBorderBottom(XSSFCellStyle.BORDER_THIN);			//实线
+//		curStyle.setBorderLeft(XSSFCellStyle.BORDER_MEDIUM);			//比较粗实线
+//		curStyle.setBorderRight(XSSFCellStyle.BORDER_THIN);				//实线
+//
+//		curStyle.setWrapText(true);  									//换行
+//		curStyle.setAlignment(XSSFCellStyle.ALIGN_RIGHT);				//横向具右对齐
+//		curStyle.setVerticalAlignment(XSSFCellStyle.VERTICAL_CENTER);	//单元格垂直居中
 		
 		return curStyle;
 	}

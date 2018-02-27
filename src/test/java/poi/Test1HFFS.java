@@ -84,14 +84,14 @@ public class Test1HFFS {
 		curFont.setFontHeightInPoints((short)10);						//字体大小
 		curStyle.setFont(curFont);
 		
-		curStyle.setBorderTop(HSSFCellStyle.BORDER_THICK);				//粗实线
-		curStyle.setBorderBottom(HSSFCellStyle.BORDER_THIN);			//实线
-		curStyle.setBorderLeft(HSSFCellStyle.BORDER_MEDIUM);			//比较粗实线
-		curStyle.setBorderRight(HSSFCellStyle.BORDER_THIN);				//实线
-		
-		curStyle.setWrapText(true);  									//换行   
-		curStyle.setAlignment(HSSFCellStyle.ALIGN_RIGHT);				//横向具右对齐
-		curStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);	//单元格垂直居中
+//		curStyle.setBorderTop(HSSFCellStyle.BORDER_THICK);				//粗实线
+//		curStyle.setBorderBottom(HSSFCellStyle.BORDER_THIN);			//实线
+//		curStyle.setBorderLeft(HSSFCellStyle.BORDER_MEDIUM);			//比较粗实线
+//		curStyle.setBorderRight(HSSFCellStyle.BORDER_THIN);				//实线
+//
+//		curStyle.setWrapText(true);  									//换行
+//		curStyle.setAlignment(HSSFCellStyle.ALIGN_RIGHT);				//横向具右对齐
+//		curStyle.setVerticalAlignment(HSSFCellStyle.VERTICAL_CENTER);	//单元格垂直居中
 		
 		return curStyle;
 	}
